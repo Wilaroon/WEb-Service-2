@@ -1,0 +1,28 @@
+package com.example.wilar.starwars;
+
+public class People {
+
+
+    private String name;
+    private String birth_year;
+    private String gender;
+
+    public People(String name, String birth_year, String gender) {
+        this.name = name;
+        this.birth_year = birth_year;
+        this.gender = gender;
+    }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public String getBirth_year() {
+        return birth_year;
+    }
+
+    public String getGender() {
+        return gender;
+}
+}
